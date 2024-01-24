@@ -5,7 +5,7 @@ int sum = int_value1 + int_value2;
 Console.WriteLine(sum);
 
 long long_value = 6;
-long sum2 = long_value + int_value1
+long sum2 = long_value + int_value1;
 Console.WriteLine(sum2);
 
 double double_value = 5.5;
@@ -19,3 +19,15 @@ double product3 = double_value * int_value1;
 Console.WriteLine(product1);
 Console.WriteLine(product2);
 Console.WriteLine(product3);
+
+double quotient = int_value1 / int_value2;
+Console.WriteLine(quotient);
+
+// homework
+int a = 3;
+int b = 4;
+int c = 5;
+int d = 1;
+
+double result = (a * b) / (c + d);
+Console.WriteLine(result);
